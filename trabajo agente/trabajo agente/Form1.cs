@@ -19,15 +19,20 @@ namespace trabajo_agente
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if(.Text == "juancho")
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "juancho")
             {
                 if (textBox2.Text == "123tamarindo")
                 {
-                    MessageBox.Show("la contraseña es correcta agente juancho");
+                    MessageBox.Show("la contraseña es correcta bienvenido a hogwarts");
                 }
                 else
                 {
-                    MessageBox.Show("contraseña incorrecta");
+                    MessageBox.Show("contraseña incorrecta ");
                 }
             }
         }
