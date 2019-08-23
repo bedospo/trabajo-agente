@@ -16,5 +16,20 @@ namespace trabajo_agente
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if(.Text == "juancho")
+            {
+                if (textBox2.Text == "123tamarindo")
+                {
+                    MessageBox.Show("la contraseña es correcta agente juancho");
+                }
+                else
+                {
+                    MessageBox.Show("contraseña incorrecta");
+                }
+            }
+        }
     }
 }
